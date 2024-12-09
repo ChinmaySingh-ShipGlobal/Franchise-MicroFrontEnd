@@ -1,4 +1,6 @@
 import { lazy, useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 
 const Badge = lazy(() => import("franchise/badge"));
 const Button = lazy(() => import("franchise/button"));
@@ -27,69 +29,73 @@ function App() {
   const [fileId, setFileId] = useState<string>("");
   const [fileIdEdit, setFileIdEdit] = useState<string>("");
   return (
-    <>
-      <AnnouncementBar announcements={Announcement} />
-      <div className="grid grid-cols-2 mt-16 gap-4  ml-4">
-        <Badge variant="success" className="max-w-max">
-          This is badge component
-        </Badge>
-        <Button variant="default" className="max-w-max">
-          This is button component
-        </Button>
-        <Card className="max-w-max mx-0">This is card component</Card>
-        <Input type="text" className="max-w-max" placeholder="This is input component" />
-        <Label className="max-w-max">This is label component</Label>
-        <TextArea className="max-w-max" placeholder="This is text area component" />
-        <ErrorMessage error="This is the error message component" className="max-w-max max-h-min" />
-        <ButtonWithIcon
-          text="This is button with icon component"
-          variant="secondary"
-          iconName="bx:bx-home"
-          className="max-w-max"
-        />
-        <FileInput
-          label="This is file input component"
-          required={true}
-          className="max-w-max"
-          name="file"
-          setFileId={setFileId}
-        />
-        <div className="max-w-72">
-          <FileInputEditable
-            label="This is file input editable component"
-            required={true}
-            name="fileedit"
-            fileId={fileIdEdit}
-            setFileId={setFileIdEdit}
-          />
-        </div>
-        <InfoBox title="This is info box component" className="max-w-max" />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      {/* <Route path="franchise/*" element={<Home />} /> */}
+    </Routes>
+    // <>
+    //   <AnnouncementBar announcements={Announcement} />
+    //   <div className="grid grid-cols-2 mt-16 gap-4  ml-4">
+    //     <Badge variant="success" className="max-w-max">
+    //       This is badge component
+    //     </Badge>
+    //     <Button variant="default" className="max-w-max">
+    //       This is button component
+    //     </Button>
+    //     <Card className="max-w-max mx-0">This is card component</Card>
+    //     <Input type="text" className="max-w-max" placeholder="This is input component" />
+    //     <Label className="max-w-max">This is label component</Label>
+    //     <TextArea className="max-w-max" placeholder="This is text area component" />
+    //     <ErrorMessage error="This is the error message component" className="max-w-max max-h-min" />
+    //     <ButtonWithIcon
+    //       text="This is button with icon component"
+    //       variant="secondary"
+    //       iconName="bx:bx-home"
+    //       className="max-w-max"
+    //     />
+    //     <FileInput
+    //       label="This is file input component"
+    //       required={true}
+    //       className="max-w-max"
+    //       name="file"
+    //       setFileId={setFileId}
+    //     />
+    //     <div className="max-w-72">
+    //       <FileInputEditable
+    //         label="This is file input editable component"
+    //         required={true}
+    //         name="fileedit"
+    //         fileId={fileIdEdit}
+    //         setFileId={setFileIdEdit}
+    //       />
+    //     </div>
+    //     <InfoBox title="This is info box component" className="max-w-max" />
 
-        <LoadingButton loading={true} text="this is loading button" />
-        <LoadingIconButton loading={true} className="max-w-72" text="This is loading icon button" />
-        <div>
-          This is loading screen component
-          <LoadingScreen />
-        </div>
-        <PhoneCode />
-        <ProfileIcon text="MicroFC" className="max-w-max" />
-        <SearchForm placeholder="This is search form component" />
-        <SuccessMessage success="This is success message component" className="max-w-max" />
-        <div className="max-w-72">
-          <SGAccordion />
-        </div>
-      </div>
-      <Calendar
-        mode="single"
-        className="max-w-max"
-        captionLayout="dropdown-buttons"
-        onSelect={(value: any) => {
-          console.log(value);
-        }}
-        fromYear={1900}
-        toYear={2012}
-      />
-    </>
+    //     <LoadingButton loading={true} text="this is loading button" />
+    //     <LoadingIconButton loading={true} className="max-w-72" text="This is loading icon button" />
+    //     <div>
+    //       This is loading screen component
+    //       <LoadingScreen />
+    //     </div>
+    //     <PhoneCode />
+    //     <ProfileIcon text="MicroFC" className="max-w-max" />
+    //     <SearchForm placeholder="This is search form component" />
+    //     <SuccessMessage success="This is success message component" className="max-w-max" />
+    //     <div className="max-w-72">
+    //       <SGAccordion />
+    //     </div>
+    //   </div>
+    //   <Calendar
+    //     mode="single"
+    //     className="max-w-max"
+    //     captionLayout="dropdown-buttons"
+    //     onSelect={(value: any) => {
+    //       console.log(value);
+    //     }}
+    //     fromYear={1900}
+    //     toYear={2012}
+    //   />
+    // </>
   );
 }
 

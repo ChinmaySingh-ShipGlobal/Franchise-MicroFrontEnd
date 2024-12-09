@@ -1,11 +1,12 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import PrivateRoutes from "@/routes/PrivateRoutes";
-import PublicRoutes from "@/routes/PublicRoutes";
+import { Routes, Route } from "react-router-dom";
+import Login from "./pages/auth/Login";
 
 function App() {
-  const router = createBrowserRouter([PrivateRoutes(), PublicRoutes()]);
-  console.log(import.meta.env);
-  return <RouterProvider router={router} />;
+  return (
+    <Routes>
+      <Route path="/" element={<Login />} />
+    </Routes>
+  );
 }
 
 export default App;

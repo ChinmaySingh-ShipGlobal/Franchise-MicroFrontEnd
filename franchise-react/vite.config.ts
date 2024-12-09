@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
     plugins: [
       react(),
       federation({
-        name: "franchise",
+        name: "/franchise",
         filename: "remoteEntry.js",
         exposes: {
           "./badge": "./src/components/ui/badge",
@@ -32,8 +32,20 @@ export default defineConfig(({ mode }) => {
           "./SearchForm": "./src/components/elements/SearchForm",
           "./SuccessMessage": "./src/components/elements/SuccessMessage",
           "./SGAccordion": "./src/components/ui/accordion",
+          "./FranchisePage": "./src/layouts/FranchisePage",
         },
-        shared: ["react", "react-dom"],
+
+        shared: [
+          "react",
+          "react-dom",
+          "react-router-dom",
+          "axios",
+          "clsx",
+          "zod",
+          "zustand",
+          "react-hook-form",
+          "tailwindcss",
+        ],
       }),
     ],
 

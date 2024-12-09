@@ -11,7 +11,7 @@ export default defineConfig({
       remotes: {
         franchise: "http://localhost:2020/assets/remoteEntry.js",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "react-router-dom", "axios", "zod", "zustand", "react-hook-form", "tailwindcss"],
     }),
   ],
 });
