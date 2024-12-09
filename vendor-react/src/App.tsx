@@ -1,6 +1,7 @@
 import { lazy, useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
+import PublicRoutes from "./PublicRoutes";
 
 const Badge = lazy(() => import("franchise/badge"));
 const Button = lazy(() => import("franchise/button"));
@@ -28,11 +29,17 @@ function App() {
   const Announcement = ["This is an annoucementbar component"];
   const [fileId, setFileId] = useState<string>("");
   const [fileIdEdit, setFileIdEdit] = useState<string>("");
+
+  const router = createBrowserRouter([PublicRoutes()]);
+  console.log(import.meta.env);
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      {/* <Route path="franchise/*" element={<Home />} /> */}
-    </Routes>
+    <RouterProvider router={router} />
+
+    // return (
+    //   <Routes>
+    //     <Route path="/" element={<Home />} />
+    //     {/* <Route path="franchise/*" element={<Home />} /> */}
+    //   </Routes>
     // <>
     //   <AnnouncementBar announcements={Announcement} />
     //   <div className="grid grid-cols-2 mt-16 gap-4  ml-4">
