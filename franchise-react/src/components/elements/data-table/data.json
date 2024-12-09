@@ -1,0 +1,524 @@
+{
+  "data": [
+    {
+      "Order Date": {
+        "Order Date": "2024-05-16",
+        "Order time": "11:40"
+      },
+      "Order ID": {
+        "Tracking": "SG32404291",
+        "Customer Shipping Country": null,
+        "Vendor Invoice No": " - "
+      },
+      "Customer Details": {
+        "Customer Name": " ",
+        "Customer Email": null,
+        "Customer Mobile": null
+      },
+      "Package Details": {
+        "package volume weight": "Package Volume: 0.012",
+        "package weight": "Dead Weight: 0.21",
+        "package bill weight": "Bill Weight: 0.21"
+      },
+      "Shipping": "631.30",
+      "actions": {
+        "View": "/order/view/7",
+        "Edit": "/order/edit/7",
+        "Pay Now": "/wallet"
+      }
+    },
+    {
+      "Order Date": {
+        "Order Date": "2024-05-15",
+        "Order time": "11:41"
+      },
+      "Order ID": {
+        "Tracking": "SG32404302",
+        "Customer Shipping Country": null,
+        "Vendor Invoice No": " - "
+      },
+      "Customer Details": {
+        "Customer Name": " ",
+        "Customer Email": null,
+        "Customer Mobile": null
+      },
+      "Package Details": {
+        "package volume weight": "Package Volume: 0.012",
+        "package weight": "Dead Weight: 0.21",
+        "package bill weight": "Bill Weight: 0.21"
+      },
+      "Shipping": "631.30",
+      "actions": {
+        "View": "/order/view/8",
+        "Edit": "/order/edit/8",
+        "Pay Now": "/wallet"
+      }
+    },
+    {
+      "Order Date": {
+        "Order Date": "2024-05-14",
+        "Order time": "12:00"
+      },
+      "Order ID": {
+        "Tracking": "SG32405074",
+        "Customer Shipping Country": null,
+        "Vendor Invoice No": " - "
+      },
+      "Customer Details": {
+        "Customer Name": " ",
+        "Customer Email": null,
+        "Customer Mobile": null
+      },
+      "Package Details": {
+        "package volume weight": "Package Volume: 0.012",
+        "package weight": "Dead Weight: 1.5",
+        "package bill weight": "Bill Weight: 1.5"
+      },
+      "Shipping": "1813.66",
+      "actions": {
+        "View": "/order/view/9",
+        "Edit": "/order/edit/9",
+        "Pay Now": "/wallet"
+      }
+    },
+    {
+      "Order Date": {
+        "Order Date": "2024-05-14",
+        "Order time": "12:00"
+      },
+      "Order ID": {
+        "Tracking": "SG32405074",
+        "Customer Shipping Country": null,
+        "Vendor Invoice No": " - "
+      },
+      "Customer Details": {
+        "Customer Name": " ",
+        "Customer Email": null,
+        "Customer Mobile": null
+      },
+      "Package Details": {
+        "package volume weight": "Package Volume: 0.012",
+        "package weight": "Dead Weight: 1.5",
+        "package bill weight": "Bill Weight: 1.5"
+      },
+      "Shipping": "1813.66",
+      "actions": {
+        "View": "/order/view/10",
+        "Edit": "/order/edit/10",
+        "Pay Now": "/wallet"
+      }
+    },
+    {
+      "Order Date": {
+        "Order Date": "2024-05-14",
+        "Order time": "12:00"
+      },
+      "Order ID": {
+        "Tracking": "SG32405074",
+        "Customer Shipping Country": null,
+        "Vendor Invoice No": " - "
+      },
+      "Customer Details": {
+        "Customer Name": " ",
+        "Customer Email": null,
+        "Customer Mobile": null
+      },
+      "Package Details": {
+        "package volume weight": "Package Volume: 0.012",
+        "package weight": "Dead Weight: 1.5",
+        "package bill weight": "Bill Weight: 1.5"
+      },
+      "Shipping": "1813.66",
+      "actions": {
+        "View": "/order/view/11",
+        "Edit": "/order/edit/11",
+        "Pay Now": "/wallet"
+      }
+    },
+    {
+      "Order Date": {
+        "Order Date": "2024-05-13",
+        "Order time": "12:00"
+      },
+      "Order ID": {
+        "Tracking": "SG32405074",
+        "Customer Shipping Country": null,
+        "Vendor Invoice No": " - "
+      },
+      "Customer Details": {
+        "Customer Name": " ",
+        "Customer Email": null,
+        "Customer Mobile": null
+      },
+      "Package Details": {
+        "package volume weight": "Package Volume: 0.012",
+        "package weight": "Dead Weight: 1.5",
+        "package bill weight": "Bill Weight: 1.5"
+      },
+      "Shipping": "1813.66",
+      "actions": {
+        "View": "/order/view/12",
+        "Edit": "/order/edit/12",
+        "Pay Now": "/wallet"
+      }
+    },
+    {
+      "Order Date": {
+        "Order Date": "2024-05-07",
+        "Order time": "12:00"
+      },
+      "Order ID": {
+        "Tracking": "SG32405074",
+        "Customer Shipping Country": "US",
+        "Vendor Invoice No": "12341test - "
+      },
+      "Customer Details": {
+        "Customer Name": "surajdev kumar",
+        "Customer Email": "test31131@gmail.com",
+        "Customer Mobile": "08920126098"
+      },
+      "Package Details": {
+        "package volume weight": "Package Volume: 0.012",
+        "package weight": "Dead Weight: 1.5",
+        "package bill weight": "Bill Weight: 1.5"
+      },
+      "Shipping": "1813.66",
+      "actions": {
+        "View": "/order/view/4",
+        "Edit": "/order/edit/4",
+        "Pay Now": "/wallet"
+      }
+    },
+    {
+      "Order Date": {
+        "Order Date": "2024-05-07",
+        "Order time": "12:00"
+      },
+      "Order ID": {
+        "Tracking": "SG32405074",
+        "Customer Shipping Country": null,
+        "Vendor Invoice No": " - "
+      },
+      "Customer Details": {
+        "Customer Name": " ",
+        "Customer Email": null,
+        "Customer Mobile": null
+      },
+      "Package Details": {
+        "package volume weight": "Package Volume: 0.012",
+        "package weight": "Dead Weight: 1.5",
+        "package bill weight": "Bill Weight: 1.5"
+      },
+      "Shipping": "1813.66",
+      "actions": {
+        "View": "/order/view/5",
+        "Edit": "/order/edit/5",
+        "Pay Now": "/wallet"
+      }
+    },
+    {
+      "Order Date": {
+        "Order Date": "2024-05-07",
+        "Order time": "12:00"
+      },
+      "Order ID": {
+        "Tracking": "SG32405074",
+        "Customer Shipping Country": null,
+        "Vendor Invoice No": " - "
+      },
+      "Customer Details": {
+        "Customer Name": " ",
+        "Customer Email": null,
+        "Customer Mobile": null
+      },
+      "Package Details": {
+        "package volume weight": "Package Volume: 0.012",
+        "package weight": "Dead Weight: 1.5",
+        "package bill weight": "Bill Weight: 1.5"
+      },
+      "Shipping": "1813.66",
+      "actions": {
+        "View": "/order/view/6",
+        "Edit": "/order/edit/6",
+        "Pay Now": "/wallet"
+      }
+    },
+    {
+      "Order Date": {
+        "Order Date": "-0001-11-30",
+        "Order time": "00:00"
+      },
+      "Order ID": {
+        "Tracking": "SG32404291",
+        "Customer Shipping Country": "US",
+        "Vendor Invoice No": "12341test - "
+      },
+      "Customer Details": {
+        "Customer Name": "surajdev kumar",
+        "Customer Email": "test3112@gmail.com",
+        "Customer Mobile": "08920126098"
+      },
+      "Package Details": {
+        "package volume weight": "Package Volume: 0.012",
+        "package weight": "Dead Weight: 0.21",
+        "package bill weight": "Bill Weight: 0.21"
+      },
+      "Shipping": "631.30",
+      "actions": {
+        "View": "/order/view/1",
+        "Edit": "/order/edit/1",
+        "Pay Now": "/wallet"
+      }
+    },
+    {
+      "Order Date": {
+        "Order Date": "-0001-11-30",
+        "Order time": "00:00"
+      },
+      "Order ID": {
+        "Tracking": "SG32404302",
+        "Customer Shipping Country": "US",
+        "Vendor Invoice No": "12341test - "
+      },
+      "Customer Details": {
+        "Customer Name": "surajdev kumar",
+        "Customer Email": "test31131@gmail.com",
+        "Customer Mobile": "08920126098"
+      },
+      "Package Details": {
+        "package volume weight": "Package Volume: 0.012",
+        "package weight": "Dead Weight: 0.21",
+        "package bill weight": "Bill Weight: 0.21"
+      },
+      "Shipping": "631.30",
+      "actions": {
+        "View": "/order/view/2",
+        "Edit": "/order/edit/2",
+        "Pay Now": "/wallet"
+      }
+    },
+    {
+      "Order Date": {
+        "Order Date": "-0001-11-30",
+        "Order time": "00:00"
+      },
+      "Order ID": {
+        "Tracking": "SG32404303",
+        "Customer Shipping Country": "US",
+        "Vendor Invoice No": "12341test - "
+      },
+      "Customer Details": {
+        "Customer Name": "surajdev kumar",
+        "Customer Email": "test31131@gmail.com",
+        "Customer Mobile": "08920126098"
+      },
+      "Package Details": {
+        "package volume weight": "Package Volume: 0.015",
+        "package weight": "Dead Weight: 0.21",
+        "package bill weight": "Bill Weight: 0.21"
+      },
+      "Shipping": "631.30",
+      "actions": {
+        "View": "/order/view/3",
+        "Edit": "/order/edit/3",
+        "Pay Now": "/wallet"
+      }
+    }
+  ],
+  "pagination": {
+    "current_page": 1,
+    "limit": 20,
+    "total_count": "12",
+    "total_pages": 1
+  },
+  "table_options": {
+    "columns": [
+      {
+        "title": "Order Date",
+        "slug": "order-date",
+        "type": "group",
+        "options": {
+          "group": [
+            {
+              "title": "Order Date",
+              "slug": "order-date",
+              "type": "text",
+              "options": [],
+              "sortable": false
+            },
+            {
+              "title": "Order time",
+              "slug": "order-time",
+              "type": "text",
+              "options": [],
+              "sortable": false
+            }
+          ]
+        },
+        "sortable": true
+      },
+      {
+        "title": "Order ID",
+        "slug": "order-id",
+        "type": "group",
+        "options": {
+          "group": [
+            {
+              "title": "Tracking",
+              "slug": "tracking",
+              "type": "text",
+              "options": [],
+              "sortable": false
+            },
+            {
+              "title": "Customer Shipping Country",
+              "slug": "customer-shipping-country",
+              "type": "text",
+              "options": [],
+              "sortable": false
+            },
+            {
+              "title": "Vendor Invoice No",
+              "slug": "vendor-invoice-no",
+              "type": "text",
+              "options": [],
+              "sortable": false
+            }
+          ]
+        },
+        "sortable": true
+      },
+      {
+        "title": "Customer Details",
+        "slug": "customer-details",
+        "type": "group",
+        "options": {
+          "group": [
+            {
+              "title": "Customer Name",
+              "slug": "customer-name",
+              "type": "text",
+              "options": [],
+              "sortable": false
+            },
+            {
+              "title": "Customer Email",
+              "slug": "customer-email",
+              "type": "text",
+              "options": [],
+              "sortable": false
+            },
+            {
+              "title": "Customer Mobile",
+              "slug": "customer-mobile",
+              "type": "text",
+              "options": [],
+              "sortable": false
+            }
+          ]
+        },
+        "sortable": true
+      },
+      {
+        "title": "Package Details",
+        "slug": "package-details",
+        "type": "group",
+        "options": {
+          "group": [
+            {
+              "title": "package volume weight",
+              "slug": "package-volume-weight",
+              "type": "text",
+              "options": [],
+              "sortable": false
+            },
+            {
+              "title": "package weight",
+              "slug": "package-weight",
+              "type": "text",
+              "options": [],
+              "sortable": false
+            },
+            {
+              "title": "package bill weight",
+              "slug": "package-bill-weight",
+              "type": "text",
+              "options": [],
+              "sortable": false
+            }
+          ]
+        },
+        "sortable": true
+      },
+      {
+        "title": "Shipping",
+        "slug": "shipping",
+        "type": "text",
+        "options": [],
+        "sortable": false
+      }
+    ],
+    "filters": [
+      {
+        "title": "Order Date",
+        "slug": "order-date",
+        "type": "date",
+        "options": {
+          "min_date": null,
+          "max_date": null
+        }
+      },
+      {
+        "title": "Order ID",
+        "slug": "order-id",
+        "type": "numeric",
+        "options": {
+          "min": null,
+          "max": null
+        }
+      },
+      {
+        "title": "Customer First Name",
+        "slug": "customer-first-name",
+        "type": "text",
+        "options": []
+      },
+      {
+        "title": "package volume weight",
+        "slug": "package-volume-weight",
+        "type": "text",
+        "options": []
+      }
+    ],
+    "row_actions": [
+      {
+        "title": "View",
+        "type": "view",
+        "slug": "view",
+        "color": "primary",
+        "options": {
+          "open_in_new_tab": false
+        }
+      },
+      {
+        "title": "Edit",
+        "type": "edit",
+        "slug": "edit",
+        "color": "primary",
+        "options": {
+          "open_in_new_tab": false
+        }
+      },
+      {
+        "title": "Pay Now",
+        "type": "redirect",
+        "slug": "pay-now",
+        "color": "primary",
+        "options": {
+          "open_in_new_tab": false
+        }
+      }
+    ],
+    "bulk_actions": []
+  }
+}
