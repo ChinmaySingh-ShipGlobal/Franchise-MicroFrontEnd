@@ -10,7 +10,10 @@ export default function PublicRoutes() {
     path: "/",
     element: (
       <Suspense>
-        <DashboardLayout headerChildren={"This is header exposed from franchise react"} />
+        <DashboardLayout
+          headerChildren={"This is header exposed from franchise react"}
+          sidebarChildren={"children will be mapped here"}
+        />
       </Suspense>
     ),
     children: [
