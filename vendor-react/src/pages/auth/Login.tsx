@@ -1,7 +1,7 @@
 import { lazy } from "react";
 
-const PublicPages = lazy(() => import("franchise/PublicPages"));
+const LoginPage = lazy(() => import("franchise/Login"));
 
 export default function Login() {
-  return <PublicPages>Login</PublicPages>;
+  return <LoginPage />;
 }
