@@ -21,6 +21,7 @@ const SearchForm = lazy(() => import("franchise/SearchForm"));
 const SuccessMessage = lazy(() => import("franchise/SuccessMessage"));
 const SGAccordion = lazy(() => import("franchise/SGAccordion"));
 const FranchisePage = lazy(() => import("franchise/FranchisePage"));
+const Test = lazy(() => import("test/Test"));
 
 export default function Home() {
   const Announcement = ["This is an annoucementbar component"];
@@ -30,7 +31,8 @@ export default function Home() {
   return (
     <FranchisePage>
       <>
-        <AnnouncementBar announcements={Announcement} />
+        {/* <AnnouncementBar announcements={Announcement} /> */}
+        <Test />
         <div className="grid grid-cols-2 mt-16 gap-4  ml-4">
           <Badge variant="success" className="max-w-max">
             This is badge component
