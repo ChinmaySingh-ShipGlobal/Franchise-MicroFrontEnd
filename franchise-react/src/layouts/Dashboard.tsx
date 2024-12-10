@@ -5,14 +5,20 @@ import { MobileNavigationBar, MobileSidebar, WebSidebar } from "@/components/tem
 import DashboardHeader from "@/components/templates/DashboardHeader";
 import { Toaster } from "@/components/ui/toaster";
 
-export default function DashboardLayout() {
+export default function DashboardLayout({
+  headerChildren,
+  sidebarChildren,
+}: {
+  headerChildren?: any;
+  sidebarChildren?: any;
+}) {
   const isMobile = useMediaQuery("(max-width: 450px)");
   const [open, setOpen] = useState(false);
   const [activeSubMenuId, setActiveSubMenuId] = useState<number | null>(null);
 
   return (
     <main className="w-full h-fit">
-      <DashboardHeader />
+      <DashboardHeader children={headerChildren} />
       {isMobile ? (
         <MobileDashboard
           open={open}
@@ -21,7 +27,11 @@ export default function DashboardLayout() {
           setActiveSubMenuId={setActiveSubMenuId}
         />
       ) : (
-        <WebDashboard activeSubMenuId={activeSubMenuId} setActiveSubMenuId={setActiveSubMenuId} />
+        <WebDashboard
+          activeSubMenuId={activeSubMenuId}
+          setActiveSubMenuId={setActiveSubMenuId}
+          sidebarChildren={sidebarChildren}
+        />
       )}
       <Toaster />
     </main>
@@ -31,8 +41,10 @@ export default function DashboardLayout() {
 export const WebDashboard = ({
   activeSubMenuId,
   setActiveSubMenuId,
+  sidebarChildren,
 }: {
   activeSubMenuId: number | null;
+  sidebarChildren?: any;
   setActiveSubMenuId: Dispatch<SetStateAction<number | null>>;
 }) => {
   const [hover, setHover] = useState<boolean>(false);
@@ -43,6 +55,7 @@ export const WebDashboard = ({
         setHover={setHover}
         activeSubMenuId={activeSubMenuId}
         setActiveSubMenuId={setActiveSubMenuId}
+        sidebarChildren={sidebarChildren}
       />
       <aside className={`transition-all ease-out relative mt-15 ${hover ? "ml-52" : "ml-18"}`}>
         <Outlet />

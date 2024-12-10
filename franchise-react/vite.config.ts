@@ -36,6 +36,7 @@ export default defineConfig(({ mode }) => {
           "./PublicPages": "./src/layouts/PublicPages",
           "./SGLogo": "./src/components/elements/SGLogo",
           "./Login": "./src/pages/auth/Login",
+          "./Dashboard": "./src/layouts/Dashboard",
         },
 
         shared: [

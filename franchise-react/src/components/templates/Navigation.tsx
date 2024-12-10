@@ -100,11 +100,13 @@ export const WebSidebar = ({
   hover,
   activeSubMenuId,
   setActiveSubMenuId,
+  sidebarChildren,
 }: {
   setHover: Dispatch<SetStateAction<boolean>>;
   hover: boolean;
   activeSubMenuId: number | null;
   setActiveSubMenuId: Dispatch<SetStateAction<number | null>>;
+  sidebarChildren?: any;
 }) => {
   const handleMenuClick = (id: number) => {
     setActiveSubMenuId((prevId) => (prevId === id ? null : id));
@@ -129,17 +131,21 @@ export const WebSidebar = ({
             <Pin className="w-4 h-4 text-gray-800 cursor-pointer" onClick={() => setPinned(true)} />
           ))}
       </div>
-      <ul className="flex flex-col mx-4 mt-6 text-center">
-        {MenuItems(profile.is_sg_city)?.map((item: MenuItem) => (
-          <SidebarListItem
-            key={item.key}
-            item={item}
-            hover={hover}
-            isActive={activeSubMenuId === item.id}
-            onClick={() => handleMenuClick(item.id)}
-          />
-        ))}
-      </ul>
+      {sidebarChildren ? (
+        sidebarChildren
+      ) : (
+        <ul className="flex flex-col mx-4 mt-6 text-center">
+          {MenuItems(profile.is_sg_city)?.map((item: MenuItem) => (
+            <SidebarListItem
+              key={item.key}
+              item={item}
+              hover={hover}
+              isActive={activeSubMenuId === item.id}
+              onClick={() => handleMenuClick(item.id)}
+            />
+          ))}
+        </ul>
+      )}
     </nav>
   );
 };
