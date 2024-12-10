@@ -1,3 +1,7 @@
+import { lazy } from "react";
+
+const PublicPages = lazy(() => import("franchise/PublicPages"));
+
 export default function Login() {
-  return <div>Login</div>;
+  return <PublicPages>Login</PublicPages>;
 }
