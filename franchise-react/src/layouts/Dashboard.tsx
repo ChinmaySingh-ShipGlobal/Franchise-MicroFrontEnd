@@ -5,14 +5,14 @@ import { MobileNavigationBar, MobileSidebar, WebSidebar } from "@/components/tem
 import DashboardHeader from "@/components/templates/DashboardHeader";
 import { Toaster } from "@/components/ui/toaster";
 
-export default function DashboardLayout() {
+export default function DashboardLayout({ headerChildren }: { headerChildren?: any }) {
   const isMobile = useMediaQuery("(max-width: 450px)");
   const [open, setOpen] = useState(false);
   const [activeSubMenuId, setActiveSubMenuId] = useState<number | null>(null);
 
   return (
     <main className="w-full h-fit">
-      <DashboardHeader />
+      <DashboardHeader children={headerChildren} />
       {isMobile ? (
         <MobileDashboard
           open={open}
