@@ -33,6 +33,9 @@ export default defineConfig(({ mode }) => {
           "./SuccessMessage": "./src/components/elements/SuccessMessage",
           "./SGAccordion": "./src/components/ui/accordion",
           "./FranchisePage": "./src/layouts/FranchisePage",
+          "./PublicPages": "./src/layouts/PublicPages",
+          "./SGLogo": "./src/components/elements/SGLogo",
+          "./Login": "./src/pages/auth/Login",
         },
 
         shared: [
