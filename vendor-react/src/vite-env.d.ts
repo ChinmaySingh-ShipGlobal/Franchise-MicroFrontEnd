@@ -1,23 +1,2 @@
 /// <reference types="vite/client" />
-declare module "franchise/badge";
-declare module "franchise/button";
-declare module "franchise/card";
-declare module "franchise/input";
-declare module "franchise/label";
-declare module "franchise/textArea";
-declare module "franchise/calendar";
-declare module "franchise/ErrorMessage";
-declare module "franchise/AnnouncementBar";
-declare module "franchise/ButtonWithIcon";
-declare module "franchise/FileInput";
-declare module "franchise/FileInputEditable";
-declare module "franchise/InfoBox";
-declare module "franchise/LoadingButton";
-declare module "franchise/LoadingIconButton";
-declare module "franchise/LoadingScreen";
-declare module "franchise/PhoneCode";
-declare module "franchise/ProfileIcon";
-declare module "franchise/SearchForm";
-declare module "franchise/SuccessMessage";
-declare module "franchise/SGAccordion";
-declare module "franchise/FranchisePage";
+declare module "franchise/*";

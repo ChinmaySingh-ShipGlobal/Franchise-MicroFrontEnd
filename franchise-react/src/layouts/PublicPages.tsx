@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Loader } from "lucide-react";
-import { SGLogo } from "@/components/elements/SGLogo";
+import SGLogo from "@/components/elements/SGLogo";
 
 export default function PublicPages({ children }: { children: React.ReactNode }) {
   return (

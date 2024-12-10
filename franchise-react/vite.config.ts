@@ -34,6 +34,7 @@ export default defineConfig(({ mode }) => {
           "./SGAccordion": "./src/components/ui/accordion",
           "./FranchisePage": "./src/layouts/FranchisePage",
           "./PublicPages": "./src/layouts/PublicPages",
+          "./SGLogo": "./src/components/elements/SGLogo",
         },
 
         shared: [
