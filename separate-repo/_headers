@@ -1,2 +1,2 @@
-/_
-Access-Control-Allow-Origin: _
+/assets/remoteEntry.js
+Access-Control-Allow-Origin: http://localhost:5173

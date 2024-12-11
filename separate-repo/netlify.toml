@@ -1,0 +1,5 @@
+[[headers]]
+for = "/assets/remoteEntry.js"
+[headers.values]
+  Access-Control-Allow-Origin = "http://localhost:5173"
+  Access-Control-Allow-Methods = "GET, OPTIONS"
