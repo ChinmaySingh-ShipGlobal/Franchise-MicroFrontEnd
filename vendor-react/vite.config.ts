@@ -10,7 +10,7 @@ export default defineConfig({
       name: "app",
       remotes: {
         franchise: "http://localhost:2020/assets/remoteEntry.js",
-        test: "https://test-componeny.netlify.app/assets/remoteEntry.js",
+        test: "https://separate-component.netlify.app/assets/remoteEntry.js",
       },
       shared: ["react", "react-dom", "react-router-dom", "axios", "zod", "zustand", "react-hook-form", "tailwindcss"],
     }),
